@@ -1,8 +1,7 @@
-version: "3.8"
 services:
   prova:
     build:
-	   [[SUBSTITUIR AQUI]] 
+      context: .
     container_name: prova
     volumes:
       - .:/home/developer 

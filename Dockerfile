@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 # Atualizar os pacotes e instalar o git
-[[SUBSTITUIR AQUI]]
+RUN apt-get update && apt-get install -y git
 # Criar um novo usuário chamado "developer" (ou o nome que preferir)
 RUN useradd -m developer
 # Mudar para o usuário "developer"

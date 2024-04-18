@@ -11,12 +11,12 @@ NAME="$1"
 EMAIL="$2"
 
 # Configurar globalmente o nome e o email do usuário para o Git
-[SUBSTITUIR AQUI 1]
+git config --global user.name "$NAME"
 git config --global user.email "$EMAIL"
 git config --global --add safe.directory /home/developer/scripts
 git config --global init.defaultBranch master
 
 
 # Inicializar o diretório atual como um repositório Git
-[SUBSTITUIR AQUI 2]
+git init
 echo "Repositório Git foi inicializado e as configurações globais do usuário foram atualizadas."

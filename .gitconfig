@@ -1,0 +1,7 @@
+[user]
+	name = nome
+	email = email@email
+[safe]
+	directory = /home/developer/scripts
+[init]
+	defaultBranch = master
