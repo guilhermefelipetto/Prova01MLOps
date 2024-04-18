@@ -1,0 +1,10 @@
+version: "3.8"
+services:
+  prova:
+    build:
+	   [[SUBSTITUIR AQUI]] 
+    container_name: prova
+    volumes:
+      - .:/home/developer 
+    working_dir: /home/developer
+    tty: true
